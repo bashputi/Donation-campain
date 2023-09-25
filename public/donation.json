@@ -1,0 +1,136 @@
+[
+    {
+      "id": "1",
+      "picture": "https://i.ibb.co/8grN7xj/Rectangle-4284.png",
+      "title": "Donation Item 1",
+      "category": "Health",
+      "color_for_category_bg": "#3498db",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "A collection of classic literature.",
+      "price": 10.00
+    },
+    {
+      "id": "2",
+      "picture": "https://i.ibb.co/nDXyqr7/Rectangle-4287.png",
+      "title": "Donation Item 2",
+      "category": "Clothing",
+      "color_for_category_bg": "#e74c3c",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Various toys for kids.",
+      "price": 5.00
+    },
+    { 
+     "id": "3",
+      "picture": "https://i.ibb.co/JCp0rT5/Rectangle-4287-2.png",
+      "title": "Donation Item 3",
+      "category": "Food",
+      "color_for_category_bg": "#2ecc71",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Assorted clothing items.",
+      "price": 8.00
+    },
+    {
+      "id": "4",
+      "picture": "https://i.ibb.co/K0nBT0M/Rectangle-4287-1.png",
+      "title": "Donation Item 4",
+      "category": "Education",
+      "color_for_category_bg": "#f39c12",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Old electronic devices.",
+      "price": 15.00
+    },
+
+    {
+      "id": "5",
+      "picture": "https://i.ibb.co/nDXyqr7/Rectangle-4287.png",
+      "title": "Donation Item 5",
+      "category": "Clothing",
+      "color_for_category_bg": "#9b59b6",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Assorted furniture items.",
+      "price": 20.00
+    },
+    {
+     "id": "6",
+      "picture": "https://i.ibb.co/8grN7xj/Rectangle-4284.png",
+      "title": "Donation Item 6",
+      "category": "Health",
+      "color_for_category_bg": "#e67e22",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Non-perishable food items.",
+      "price": 7.00
+    },
+    {
+        "id": "7",
+      "picture": "https://i.ibb.co/JCp0rT5/Rectangle-4287-2.png",
+      "title": "Donation Item 7",
+      "category": "Food",
+      "color_for_category_bg": "#1abc9c",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Assorted stationery supplies.",
+      "price": 3.00
+    },
+    {
+        "id": "8",
+      "picture": "https://i.ibb.co/K0nBT0M/Rectangle-4287-1.png",
+      "title": "Donation Item 8",
+      "category": "Education",
+      "color_for_category_bg": "#e74c3c",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Various kitchenware items.",
+      "price": 12.00
+    },
+
+    {
+        "id": "9",
+      "picture": "https://i.ibb.co/JCp0rT5/Rectangle-4287-2.png",
+      "title": "Donation Item 9",
+      "category": "Food",
+      "color_for_category_bg": "#3498db",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Artistic materials for creative minds.",
+      "price": 8.00
+    },
+    {
+        "id": "10",
+      "picture": "https://i.ibb.co/K0nBT0M/Rectangle-4287-1.png",
+      "title": "Donation Item 10",
+      "category": "Education",
+      "color_for_category_bg": "#2ecc71",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Health and wellness products.",
+      "price": 6.00
+    },
+    {
+        "id": "11",
+      "picture": "https://i.ibb.co/nDXyqr7/Rectangle-4287.png",
+      "title": "Donation Item 11",
+      "category": "Clothing",
+      "color_for_category_bg": "#f39c12",
+      "color_for_card_bg": "#ecf0f1",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Various sports equipment.",
+      "price": 10.00
+    },
+    {
+        "id": "12",
+      "picture": "https://i.ibb.co/8grN7xj/Rectangle-4284.png",
+      "title": "Donation Item 12",
+      "category": "Health",
+      "color_for_category_bg": "#9b59b6",
+      "color_for_card_bg": "rgba(0, 82, 255, 0.15);",
+      "color_for_text_and_button": "#2c3e50",
+      "description": "Miscellaneous items for donation.",
+      "price": 5.00
+    }
+  ]
