@@ -2,7 +2,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-       <div>
+       <div className='-mt-9'>
          <div id='banner' className="bg-green-200 h-[60vh] relative">
             </div>
 
