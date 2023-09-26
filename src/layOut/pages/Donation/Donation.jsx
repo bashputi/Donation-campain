@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import DonatCard from "../Donat/DonatCard";
 import DonationCard from "./DonationCard";
+import ErrorPage from "../Error/ErrorPage";
 
 
 const Donation = () => {
@@ -16,7 +17,7 @@ const Donation = () => {
        if(donationItems) {
            setDonation(donationItems)
        }else{
-        setNoFound('404 not found')
+        setNoFound(<ErrorPage></ErrorPage>)
        }
     },[]);
 
