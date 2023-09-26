@@ -8,18 +8,18 @@ const DonatCard = ({donat}) => {
 
         const addedDonatesArray = [];
 
-        const donationItems = JSON.parse(localStorage.getItem('donations'))
+        const donationItems = JSON.parse(localStorage.getItem('donation'))
 
         if(!donationItems) {
             addedDonatesArray.push(donat)
-            localStorage.setItem('donations', JSON.stringify(addedDonatesArray))
+            localStorage.setItem('donation', JSON.stringify(addedDonatesArray))
             swal("Good job!!", "You donated", "success");
         }else{
             const isExists = donationItems.find((donat) => donat.id === id);
 
             if(!isExists) {
                 addedDonatesArray.push(...donationItems, donat)
-                localStorage.setItem('donations', JSON.stringify(addedDonatesArray))
+                localStorage.setItem('donation', JSON.stringify(addedDonatesArray))
                 swal("Good job!!", "You donated", "success");
             }else{
                 swal("error!", "Already Added", "error");
