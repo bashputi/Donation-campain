@@ -21,16 +21,16 @@ const Statistics = () => {
     
     return (
         
-         <div className='max-w-[60vw] mx-auto flex items-center'>
+         <div className='lg:max-w-[40vw] lg:mx-auto md:flex items-center'>
 
-        <PieChart width={700} height={700}>
-            <Pie data={data} labelLine={false} outerRadius={250} fill="#FF444A" dataKey="Donation">
+        <PieChart width={400} height={400}>
+            <Pie data={data} labelLine={false} outerRadius={150} fill="#FF444A" dataKey="Donation">
             
               {pieSegments}
             </Pie>
           </PieChart>
         
-          <div className=''>
+          <div className='ml-40 md:ml-0'>
             <div className='text-1xl font-bold text-[#FF444A]'>Donated Item </div>
             <div className='text-1xl font-bold text-[#00C49F]'>Total Donation<span></span></div>
           </div>
