@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import DonationCard from "./DonationCard";
 import ErrorPage from "../Error/ErrorPage";
-import Statistics from "../Statistics/Statistics";
+
 
 
 const Donation = () => {
