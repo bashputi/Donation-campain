@@ -1,23 +1,41 @@
-import { PieChart, Pie } from 'recharts';
+
+import { PieChart, Pie, Cell} from 'recharts';
 
 
 const Statistics = () => {
-    const data = [
-        {name: "gg" , students: 400},
-        {name: "ge" , students: 40},
-        {name: "ee" , students: 800}
+   
+    const donationItems = JSON.parse(localStorage.getItem('donation'));
+        
+    const donationLength = donationItems.length;
+    const donationMade = (donationLength * 360) / 12 ;
+     
+    const DonationLeft = 360 - donationMade ;
+      
+     const data = [
+        {name: "TotalDonation" , Donation: donationMade},
+        {name: "DonationLeft" , Donation: DonationLeft} 
     ];
-
-
+     const COLORS = ['#FF444A', '#00C49F'];
+     
+    
     return (
         
-          
+         <div className='max-w-[60vw] mx-auto flex items-center'>
 
-         <div>
-             <PieChart width={700} height={700}>
-            <Pie  cx="50%" cy="50%" labelLine={false} data={data} dataKey="students" outerRadius={250} fill='#FF444A' />
+        <PieChart width={700} height={700}>
+            <Pie data={data} labelLine={false} outerRadius={250} fill='#FF444A' dataKey="Donation"/>
             
+            {data.map((index) => (
+              <Cell key={`cell-${index}`} fill={COLORS[index % COLORS.length]} />
+            ))}
+
           </PieChart>
+        
+          <div className=''>
+            <div className='text-1xl font-bold text-[#FF444A]'>Donated Item </div>
+            <div className='text-1xl font-bold text-[#00C49F]'>Total Donation<span></span></div>
+          </div>
+
          </div>
         
         

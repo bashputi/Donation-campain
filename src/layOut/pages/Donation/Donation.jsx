@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import DonatCard from "../Donat/DonatCard";
 import DonationCard from "./DonationCard";
 import ErrorPage from "../Error/ErrorPage";
+import Statistics from "../Statistics/Statistics";
 
 
 const Donation = () => {
@@ -13,6 +13,7 @@ const Donation = () => {
 
     useEffect(() => {
        const donationItems = JSON.parse(localStorage.getItem('donation'));
+       
 
        if(donationItems) {
            setDonation(donationItems)
@@ -41,7 +42,7 @@ const Donation = () => {
 
            </div>
         }
-
+             
     </div>;
        
 };
